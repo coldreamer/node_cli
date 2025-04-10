@@ -1,0 +1,21 @@
+{
+  "name": "johancli",
+  "version": "1.0.0",
+  "description": "## 项目简介 Johan CLI 是一个基于 Node.js 开发的脚手架工具，旨在帮助开发者快速创建和管理项目模板。通过简单的命令行操作，可以快速搭建项目结构，提高开发效率。",
+  "main": "index.js",
+  "bin": {
+    "johancli": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "johan_wu",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^13.1.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^12.5.2",
+    "ora": "^5.4.1"
+  }
+}
