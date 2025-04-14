@@ -1,8 +1,9 @@
 module.exports = {
-  framework: ["vue", "react"],
+  framework: ["express", "react", "vue"],
   repo: {
-    vue: "https://github.com/PanJiaChen/vue-admin-template.git#main",
-    react: "flippidippi/download-git-repo-fixture",
+    express: "https://github.com/coldreamer/express-template.git",
+    react: "https://github.com/coldreamer/react-template.git",
+    vue: "https://github.com/coldreamer/vue-template.git",
   },
   projectName: "johan-cli",
   projectPath: "./test/",
